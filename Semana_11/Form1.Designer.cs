@@ -31,7 +31,7 @@
             btn_CargarArchivo = new Button();
             dgv_Estudiantes = new DataGridView();
             col_Codigo = new DataGridViewTextBoxColumn();
-            col_Nombres = new DataGridViewTextBoxColumn();
+            col_Nombre = new DataGridViewTextBoxColumn();
             col_Edad = new DataGridViewTextBoxColumn();
             col_Nota = new DataGridViewTextBoxColumn();
             col_Estado = new DataGridViewTextBoxColumn();
@@ -41,9 +41,9 @@
             // btn_CargarArchivo
             // 
             btn_CargarArchivo.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_CargarArchivo.Location = new Point(187, 35);
+            btn_CargarArchivo.Location = new Point(200, 30);
             btn_CargarArchivo.Name = "btn_CargarArchivo";
-            btn_CargarArchivo.Size = new Size(191, 44);
+            btn_CargarArchivo.Size = new Size(180, 59);
             btn_CargarArchivo.TabIndex = 0;
             btn_CargarArchivo.Text = "Cargar Archivo";
             btn_CargarArchivo.UseVisualStyleBackColor = true;
@@ -54,12 +54,12 @@
             dgv_Estudiantes.AllowUserToAddRows = false;
             dgv_Estudiantes.AllowUserToDeleteRows = false;
             dgv_Estudiantes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_Estudiantes.Columns.AddRange(new DataGridViewColumn[] { col_Codigo, col_Nombres, col_Edad, col_Nota, col_Estado });
-            dgv_Estudiantes.Location = new Point(12, 104);
+            dgv_Estudiantes.Columns.AddRange(new DataGridViewColumn[] { col_Codigo, col_Nombre, col_Edad, col_Nota, col_Estado });
+            dgv_Estudiantes.Location = new Point(12, 114);
             dgv_Estudiantes.Name = "dgv_Estudiantes";
             dgv_Estudiantes.ReadOnly = true;
             dgv_Estudiantes.RowTemplate.Height = 25;
-            dgv_Estudiantes.Size = new Size(544, 317);
+            dgv_Estudiantes.Size = new Size(544, 315);
             dgv_Estudiantes.TabIndex = 1;
             // 
             // col_Codigo
@@ -68,11 +68,11 @@
             col_Codigo.Name = "col_Codigo";
             col_Codigo.ReadOnly = true;
             // 
-            // col_Nombres
+            // col_Nombre
             // 
-            col_Nombres.HeaderText = "Nombres";
-            col_Nombres.Name = "col_Nombres";
-            col_Nombres.ReadOnly = true;
+            col_Nombre.HeaderText = "Nombre";
+            col_Nombre.Name = "col_Nombre";
+            col_Nombre.ReadOnly = true;
             // 
             // col_Edad
             // 
@@ -82,7 +82,7 @@
             // 
             // col_Nota
             // 
-            col_Nota.HeaderText = "Notas";
+            col_Nota.HeaderText = "Nota";
             col_Nota.Name = "col_Nota";
             col_Nota.ReadOnly = true;
             // 
@@ -96,7 +96,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(567, 443);
+            ClientSize = new Size(570, 450);
             Controls.Add(dgv_Estudiantes);
             Controls.Add(btn_CargarArchivo);
             Name = "Form1";
@@ -110,7 +110,7 @@
         private Button btn_CargarArchivo;
         private DataGridView dgv_Estudiantes;
         private DataGridViewTextBoxColumn col_Codigo;
-        private DataGridViewTextBoxColumn col_Nombres;
+        private DataGridViewTextBoxColumn col_Nombre;
         private DataGridViewTextBoxColumn col_Edad;
         private DataGridViewTextBoxColumn col_Nota;
         private DataGridViewTextBoxColumn col_Estado;

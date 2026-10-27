@@ -1,6 +1,6 @@
 ﻿   E001;Marian Fuertes;18;15.2   
    E002;Aurora Lopez;17;16.0
-   E003;Maximo Porras;20; 11.2
+   E003;Maximo Porras;20;11.2
    E004;Nicolas Cruz;18;13.2
    E005;Benjamin Carpio;18;9.2
    E006;Mateo Silva;16;17.2
